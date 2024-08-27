@@ -12,11 +12,16 @@ SecureAuthApp is a web application that provides secure user authentication usin
 
 ## Technologies
 
-- **Backend Framework**:Node.js,Express.js,EJS
-- **Database**: PostgreSQL
-- **Authentication**: Passport.js (Local Strategy, Google OAuth2)
-- **Password Hashing**: bcrypt
-- **Environment Management**: dotenv
+- **Backend Framework**: [Express.js](https://expressjs.com/) - Minimalist web framework for Node.js.
+- **Database**: [PostgreSQL](https://www.postgresql.org/) - Powerful, open-source relational database.
+- **Authentication**: [Passport.js](http://www.passportjs.org/) - Middleware for authentication with local strategy and Google OAuth2.
+- **Password Hashing**: [bcrypt](https://www.npmjs.com/package/bcrypt) - Library to hash passwords securely.
+- **Environment Management**: [dotenv](https://www.npmjs.com/package/dotenv) - Loads environment variables from a `.env` file.
+- **Session Management**: [express-session](https://www.npmjs.com/package/express-session) - Middleware for handling sessions.
+- **Templating Engine**: [EJS](https://www.npmjs.com/package/ejs) - Embedded JavaScript templating for rendering views.
+- **Body Parsing**: [body-parser](https://www.npmjs.com/package/body-parser) - Middleware to parse incoming request bodies.
+- **Runtime**: [Node.js](https://nodejs.org/) - JavaScript runtime for building scalable network applications.
+
 
 ## Setup
 
